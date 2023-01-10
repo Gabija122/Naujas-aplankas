@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#333333;
+    background-color: rgba(229, 229, 229, 1);
+}
+
+main {
+    margin: 90px;
+}
+
+.mygtukas {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 13px 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(100, 123, 100, 1);
+    color: rgba(229, 229, 229, 1);
+    margin-top: 20px;
+}
+
+span {
+    text-transform: uppercase;
+    color: #F3B562;
+}
+
+h2,
+h1 {
+    text-transform: uppercase;
+    color: rgba(100, 123, 100, 1);
+}
+
+
+/* hederis */
+.container-1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+li.menu-item {
+    display: inline;
+    padding-left: 25px;
+}
+
+a.menu-it {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 13px 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+/* blokas-2 */
+
+.blokas-2 {
+    display: flex;
+    
+}
+
+.blokas-2>div {
+    width: 40%;
+    padding: 50px;
+}
+
+.blokas-2>div:last-child {
+    display: grid;
+    gap: 70px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr)
+}
+
+h3 {
+    font-family:
+
+}
+.blokas-2 .smartcar {
+    position: relative;
+}
+
+.smartcar-image {
+    position: absolute;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footeris */
+
+footer {
+    background-color: rgba(240, 220, 197, 1);
+}
+
+footer>div {
+    padding: 70px;
+    padding-left: 90px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 4fr 3fr 3fr 4fr;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer .icon {
+    display: inline;
+    margin: 5px;
+}

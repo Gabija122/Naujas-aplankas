@@ -1,0 +1,685 @@
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.pink {
+  background-color: rgb(230, 125, 143);
+}
+
+.red {
+  background-color: red;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.brown {
+  background-color: brown;
+}
+
+
+/* -----------------visas------------------------- */
+
+
+.visas {
+  background-color: rgb(222, 209, 209);
+  width: 700px;
+  height: 560px;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container {
+  background-color: lightgray;
+  width: calc(19%);
+  height: calc(24%);
+}
+
+
+/* --------------------1------------------------ */
+
+
+/*.container-1 .child-1 {
+    height: 200px;
+    width: 200px;
+  }*/
+.container-1 .child:nth-child(1),
+.container-1 .child:nth-child(4),
+.container-1 .child:nth-child(5) {
+  height: calc(100% / 3));
+  width: calc(100% / 3);
+}
+
+.container-1 .child:nth-child(2),
+.container-1 .child:nth-child(3),
+.container-1 .child:nth-child(6) {
+  height: calc(100% / 3);
+  width: calc(100% / 3 * 2);
+}
+
+.container-1 { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .container-1 .child:nth-child(1) {
+  height: 200px;
+  width: 200px;
+}
+
+.container-1 .child:nth-child(2) {
+  height: 200px;
+  width: 400px;
+}
+
+.container-1 .child:nth-child(3) {
+  height: 200px;
+  width: 400px;
+}
+
+.container-1 .child:nth-child(4) {
+  height: 200px;
+  width: 200px;
+}
+
+.container-1 .child:nth-child(5) {
+  height: 200px;
+  width: 200px;
+}
+
+.container-1 .child:nth-child(6) {
+  height: 200px;
+  width: 400px;
+}*/
+
+
+/* -----------------------2---------------------- */
+.container-2 .child:nth-child(1),
+.container-2 .child:nth-child(4),
+.container-2 .child:nth-child(5) {
+  height: calc(100% / 3);
+  width: calc(100% / 3);
+}
+
+.container-2 .child:nth-child(2),
+.container-2 .child:nth-child(3),
+.container-2 .child:nth-child(6) {
+  height: calc(100% / 3 * 2);
+  width: calc(100% / 3);
+}
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+/* --------------------3-------------------------- */
+
+
+.container-3 .child-container-1 {
+  height: calc(100% / 3 * 2);
+  width: calc(100%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container-3 .child-container-1 .child:nth-child(1) {
+  height: calc(100%);
+  width: calc(100% / 3 * 2);
+}
+
+.container-3 .child-container-1 .child:nth-child(2),
+.container-3 .child-container-1 .child:nth-child(3) {
+  height: calc(100% / 2);
+  width: calc(100% / 3);
+}
+
+.container-3 .child-container-2 {
+  height: calc(100% / 3);
+  width: calc(100%);
+  display: flex;
+}
+
+.container-3 .child-container-2 .child {
+  width:  calc(100% / 3);
+  height:  calc(100%);
+}
+
+
+
+
+/* ---------------------4----------------------- */
+
+.container-4 .blue {
+  height: 100%;
+  width: 20%;
+}
+
+.container-4 .orange {
+  height:  calc(100%);
+  width:  calc(100% / 5 * 2);
+}
+
+.container-4 .purple,
+.container-4 .red {
+  height:  calc(100% / 2);
+  width:  calc(100% / 4);
+}
+
+.container-4 .green {
+  height:  calc(100%);
+  width:  calc(100% / 2);
+}
+
+.virsus-4,
+.apacia-4 {
+  height:  calc(100% / 4);
+  width:  calc(100%);
+  display: flex;
+  flex-direction: row;
+}
+
+.vidurys-4 {
+  height:  calc(100% / 2);
+  width:  calc(100%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* --------------5----------------- */
+
+.container-5 .orange,
+.container-5 .green,
+.vidurys-5 {
+  height:  calc(100% / 3);
+  width:  calc(100% / 3);
+}
+
+.container-5 .blue {
+  height:  calc(100% / 3);
+  width:  calc(100% / 3 * 2);
+}
+
+.vidurys-5 .child {
+  height:  calc(100% / 2);
+  width:  calc(100% / 2);
+}
+
+.container-5 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.vidurys-5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* ---------------6---------------- */
+
+.container-6 .orange,
+.container-6 .green,
+.vidurys-6 {
+  height:  calc(50%);
+  width:  calc(100% / 3);
+}
+
+.container-6 .pink {
+  height: calc(50%);
+  width: calc(100%);
+}
+
+.vidurys-6 .purple,
+.vidurys-6 .red {
+  height: calc(50%);
+  width: calc(50%);
+}
+
+.vidurys-6 .blue {
+  height: calc(50%);
+  width: calc(100%);
+}
+
+
+.container-6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.vidurys-6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+/* --------------7------------------- */
+
+
+.container-7 .green,
+.container-7 .orange {
+  height: calc(100% / 2);
+  width: calc(75%);
+}
+
+.vidurys-7 {
+  height: calc(100% / 2);
+  width: calc(25%);
+}
+
+.vidurys-7 .child {
+  height: calc(100% / 2);
+  width: calc(100%);
+}
+
+.container-7 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+/* --------------8------------------- */
+
+
+.container-8 .orange {
+  height: calc(50%);
+  width: calc(100%);
+}
+
+.container-8 .green,
+.vidurys-8 {
+  height: calc(50%);
+  width: calc(100% / 3);
+}
+
+.vidurys-8 .child {
+  height: calc(50%);
+  width: calc(100%);
+}
+
+.container-8 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+/* --------------9------------------- */
+
+.pirmas-9 {
+  height: calc(100% / 3 * 2);
+  width: calc(100% / 3);
+}
+.antras-9 {
+  height: calc(100% / 3 * 2);
+  width: calc(100% / 3 * 2);
+}
+.apacia-9 {
+  height: calc(100% / 3);
+  width: calc(100%);
+}
+
+.pirmas-9 :first-child {
+  height: calc(75%);
+  width: calc(100%);
+}
+.pirmas-9 .child:nth-child(3),
+.pirmas-9 .child:nth-child(2) {
+  height: calc(25%);
+  width: calc(50%);
+}
+.pirmas-9 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.antras-9 .child {
+  height: calc(25%);
+  width: calc(100% / 3);
+}
+.antras-9 :last-child {
+  height: calc(75%);
+  width: calc(100%);
+}
+.antras-9 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.apacia-9 .green {
+  height: calc(100%);
+  width: calc(100% / 3);
+}
+.apacia-9 .red {
+  height: calc(100%);
+  width: calc(400% / 9);
+}
+
+.kampas-9 {
+  height: calc(100%);
+  width: calc(200% / 9);
+}
+
+.kampas-9 .child {
+  height: calc(50%);
+  width: calc(100%);
+}
+
+.apacia-9 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.kampas-9 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-9 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+/* ----------------10----------------- */
+
+
+
+.virsus-10,
+.vidurys-10,
+.apacia-10 {
+  height: calc(100% / 3);
+  width: calc(100%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container-10 .red {
+  height: calc(100%);
+  width: calc(50%);
+}
+.container-10 .green {
+  height: calc(100%);
+  width: calc(100% / 3);
+}
+
+.container-10 .pink,
+.container-10 .purple {
+  height: calc(50%);
+  width: calc(100% / 6);
+}
+
+.container-10 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----------------11----------------- */
+
+
+.container-11 .green {
+  height: calc(100% / 5 * 4);
+  width: calc(100%);
+}
+
+.container-11 .pink,
+.container-11 .purple {
+  height: calc(100% / 5);
+  width: calc(100% / 5);
+}
+
+.container-11 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* ----------------12----------------- */
+
+
+.container-12 .red,
+.container-12 .green {
+  height: calc(100%);
+  width: calc(100% / 5);
+}
+
+.container-12 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* ------------------13----------------- */
+
+.container-13 .pink,
+.container-13 .green {
+  height: calc(100% / 5);
+  width: calc(100%);
+}
+
+.container-13 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ------------------14----------------- */
+
+.container-14 .divas-14 {
+  height: calc(50%);
+  width: calc(50%);
+}
+
+.divas-14 .brown {
+  height: calc(100% / 3 * 2);
+  width: calc(100%);
+}
+
+.divas-14 .green {
+  height: calc(100%);
+  width: calc(50%);
+}
+
+.divas-14 .orange,
+.divas-14 .blue,
+.divas-14 .purple,
+.divas-14 .pink {
+  height: calc(100% / 3);
+  width: calc(50%);
+}
+
+.vidurys-14 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.pirmas-14,
+.container-14 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* --------------15------------------ */
+
+.container-15 .blue,
+.container-15 .red {
+  height: calc(25%);
+  width: calc(100% / 3);
+}
+
+.container-15 .pink,
+.container-15 .green {
+  height: calc(25%);
+  width: calc(100% / 4);
+}
+
+.container-15 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* --------------16------------------ */
+
+
+.container-16 .red,
+.container-16 .blue {
+  height: calc(100% / 3);
+  width: calc(100%);
+}
+
+.container-16 .green,
+.container-16 .vidurys-16 {
+  height: calc(100% / 3);
+  width: calc(25%);
+}
+
+.container-16 .pink,
+.container-16 .brown {
+  height: calc(50%);
+  width: calc(100%);
+}
+
+.container-16,
+.container-16 .vidurys-16 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* --------------17------------------ */
+
+
+.container-17 .blue,
+.vidurys-17 {
+  height: calc(100%);
+  width: calc(50%);
+}
+
+.container-17 .purple {
+  height: calc(100% / 4);
+  width: calc(100%);
+}
+
+.container-17 .pink,
+.container-17 .brown {
+  height: calc(25%);
+  width: calc(50%);
+}
+
+.container-17,
+.container-17 .vidurys-17 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----------------18---------------------- */
+
+.container-18 .blue,
+.container-18 .red {
+  height: calc(100% / 3);
+  width: calc(100% / 3);
+}
+
+.container-18 .pink,
+.container-18 .green {
+  height: calc(100% / 2);
+  width: calc(100% / 3);
+}
+
+.container-18 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+/* ---------------------19------------------ */
+
+.container-19 .blue {
+  height: calc(100% / 3 * 2);
+  width: calc(100% / 3 * 2);
+}
+
+.sonas-19 {
+  height: calc(100% / 3 * 2);
+  width: calc(100% / 3);
+}
+
+.container-19 .apacia-19 {
+  height: calc(100% / 3);
+  width: calc(100%);
+}
+
+.apacia-19 .purple {
+  height: calc(100%);
+  width: calc(100% / 3);
+}
+
+.sonas-19 .purple {
+  height: calc(50%);
+  width: calc(100%);
+}
+
+.sonas-19 .brown,
+.sonas-19 .pink {
+  height: calc(25%);
+  width: calc(50%);
+}
+
+.apacia-19 .brown,
+.apacia-19 .pink {
+  height: calc(50%);
+  width: calc(100% / 6);
+}
+
+.container-19,
+.sonas-19 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apacia-19 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+
+/* ---------------------20-------------- */
+
+
+.container-20 .child {
+  height: calc(100% / 3);
+  width: calc(100% / 4);
+}
+
+.container-20 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
